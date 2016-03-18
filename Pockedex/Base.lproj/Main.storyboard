@@ -37,7 +37,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="PA9-tt-Cos">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokeCell" id="PA9-tt-Cos" customClass="PokeCellCollectionViewCell" customModule="Pockedex" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -70,6 +70,10 @@
                                             <constraint firstAttribute="bottom" secondItem="Elf-sP-srz" secondAttribute="bottom" id="hTQ-PM-lFx"/>
                                             <constraint firstAttribute="trailing" secondItem="Elf-sP-srz" secondAttribute="trailing" id="nNd-cB-tTj"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="nameLbl" destination="Elf-sP-srz" id="7Pa-nD-9BR"/>
+                                            <outlet property="thumbImg" destination="R54-hj-ltL" id="XbF-dH-FSQ"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -99,6 +103,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gmh-GE-mH8" secondAttribute="bottom" id="xd4-Gy-D4T"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collection" destination="ALG-ua-RuV" id="mKb-1z-VKh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
