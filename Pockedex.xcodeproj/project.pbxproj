@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B548E761C9C1A9600761754 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2B548E751C9C1A9600761754 /* pokemon.csv */; };
 		2B6FA0161C9C1234001D03CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FA0151C9C1234001D03CA /* AppDelegate.swift */; };
 		2B6FA0181C9C1234001D03CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FA0171C9C1234001D03CA /* ViewController.swift */; };
 		2B6FA01B1C9C1234001D03CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6FA0191C9C1234001D03CA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B548E751C9C1A9600761754 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		2B6FA0121C9C1234001D03CA /* Pockedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pockedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6FA0151C9C1234001D03CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B6FA0171C9C1234001D03CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		2B6FA0141C9C1234001D03CA /* Pockedex */ = {
 			isa = PBXGroup;
 			children = (
+				2B548E751C9C1A9600761754 /* pokemon.csv */,
 				2B6FA0151C9C1234001D03CA /* AppDelegate.swift */,
 				2B6FA0171C9C1234001D03CA /* ViewController.swift */,
 				2B6FA0191C9C1234001D03CA /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				2B6FA0201C9C1234001D03CA /* LaunchScreen.storyboard in Resources */,
 				2B6FA01D1C9C1234001D03CA /* Assets.xcassets in Resources */,
+				2B548E761C9C1A9600761754 /* pokemon.csv in Resources */,
 				2B6FA01B1C9C1234001D03CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				2B6FA03C1C9C1235001D03CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6FA03D1C9C1235001D03CA /* Build configuration list for PBXNativeTarget "PockedexTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				2B6FA03F1C9C1235001D03CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6FA0401C9C1235001D03CA /* Build configuration list for PBXNativeTarget "PockedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				2B6FA0421C9C1235001D03CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
